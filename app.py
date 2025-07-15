@@ -19,8 +19,10 @@ from docx import Document
 from pptx import Presentation
 #import config  # GEMINI_API_KEY & GEMINI_MODEL_ID must be defined here
 import os
-genai.configure(api_key=os.environ["GEMINI_API_KEY"])
-MODEL_ID = os.environ["gemini-pro"]
+import streamlit as st
+import google.generativeai as genai
+genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
+MODEL_ID = st.secrets["GEMINI_MODEL_ID"]
 
 # ─────────────────────────────── CONSTANTS ────────────────────────────────
 USERS_FILE    = "users.json"

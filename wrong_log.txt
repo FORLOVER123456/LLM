@@ -1,0 +1,495 @@
+Q2: T/F 2. According to Ohm's Law, voltage is inversely proportional to resistance for a fixed current.
+Your answer: TRUE | Correct: FALSE
+Explanation: False. Ohm's Law (V = IR) states that voltage is directly proportional to resistance when current is constant.
+----
+Q3: T/F 3. A circuit is linear if it satisfies only the additivity property.
+Your answer: TRUE | Correct: FALSE
+Explanation: False. A linear circuit must satisfy both additivity and homogeneity (scaling or superposition).
+----
+Q4: T/F 4. A BJT is an example of a linear circuit element.
+Your answer: TRUE | Correct: FALSE
+Explanation: False. BJTs (Bipolar Junction Transistors) are non-linear devices due to their exponential current-voltage relationship.
+----
+Q6: Qn. 6. Which of the following theorems is useful for simplifying a complex network by finding an equivalent voltage source and series resistance? (A) Superposition Theorem (B) Norton's Theorem (C) Thevenin's Theorem (D) Maximum Power Transfer Theorem
+Your answer: A | Correct: C
+Explanation: C. Thevenin's Theorem simplifies a circuit to a voltage source in series with a resistance.
+----
+Q7: Qn. 7. Which of the following describes the equivalent resistance of an ideal voltage source? (A) Infinite (B) High (C) Low (D) Zero
+Your answer: A | Correct: D
+Explanation: D. An ideal voltage source maintains a constant voltage regardless of the current, implying zero internal resistance.
+----
+Q8: Qn. 8. A dependent source's value is determined by: (A) an independent source in the circuit. (B) an external power supply. (C) the voltage or current of another element in the circuit. (D) a fixed value regardless of the circuit.
+Your answer: A | Correct: C
+Explanation: C. A dependent source's output (voltage or current) is controlled by another voltage or current within the circuit.
+----
+Q10: Qn. 10. In a transfer function, the values of 's' that make the denominator equal to zero are called: (A) Zeros (B) Poles (C) Roots (D) Nodes
+Your answer: A | Correct: B
+Explanation: B. Poles are the values of 's' that make the denominator of a transfer function zero, leading to an infinite output.
+----
+Q6: Qn. 6. Which of the following theorems is useful for simplifying a complex network by finding an equivalent voltage source and series resistance? (A) Superposition Theorem (B) Norton's Theorem (C) Thevenin's Theorem (D) Maximum Power Transfer Theorem
+Your answer: A | Correct: C
+Explanation: (no explanation)
+----
+Q7: Qn. 7. Which of the following describes the equivalent resistance of an ideal voltage source? (A) Infinite (B) High (C) Low (D) Zero
+Your answer: A | Correct: D
+Explanation: (no explanation)
+----
+Q8: Qn. 8. A dependent source's value is determined by: (A) an independent source in the circuit. (B) an external power supply. (C) the voltage or current of another element in the circuit. (D) a fixed value regardless of the circuit.
+Your answer: A | Correct: C
+Explanation: (no explanation)
+----
+Q10: Qn. 10. In a transfer function, the values of 's' that make the denominator equal to zero are called: (A) Zeros (B) Poles (C) Roots (D) Nodes
+Your answer: A | Correct: B
+Explanation: (no explanation)
+----
+Q3: T/F 3. The h parameter 'hoe' for a BJT has units of ohms.
+Your answer: TRUE | Correct: FALSE
+Explanation: {"explanation": "False. The h parameter 'hoe' represents output admittance, which is the reciprocal of resistance. Therefore, its units are Siemens (S) or A/V, not ohms."}
+----
+Q4: T/F 4. An ideal voltage source has infinite internal resistance.
+Your answer: TRUE | Correct: FALSE
+Explanation: {"explanation": "False. An ideal voltage source has zero internal resistance, allowing it to maintain a constant voltage regardless of the current drawn."}
+----
+Q6: Qn. 6. Which of the following is NOT considered a linear circuit element? (A) Resistor (B) Capacitor (C) Diode (D) Inductor
+Your answer: A | Correct: C
+Explanation: {"explanation": "(C) Diode. Diodes exhibit a non-linear voltage-current relationship, unlike resistors, capacitors, and inductors which behave linearly within certain operating ranges."}
+----
+Q8: Qn. 8. In applying the superposition theorem, what should be done with other voltage sources when considering the effect of one voltage source? (A) Open circuit (B) Short circuit (C) Leave them unchanged (D) Replace with current sources
+Your answer: A | Correct: B
+Explanation: {"explanation": "(B) Short circuit. When applying superposition, voltage sources are short-circuited (replaced with a wire) when considering the effect of other sources. This eliminates the voltage source's contribution to the circuit while analyzing the effect of another source."}
+----
+Q9: Qn. 9. Thevenin's equivalent voltage is the: (A) Short circuit current at the terminals (B) Open circuit voltage at the terminals (C) Equivalent resistance at the terminals (D) Average voltage across the terminals
+Your answer: A | Correct: B
+Explanation: {"explanation": "(B) Open circuit voltage at the terminals. The Thevenin voltage is the voltage measured at the terminals of the network when no load is connected (open circuit)."}
+----
+Q10: Qn. 10. What happens to a capacitor's voltage as frequency approaches infinity? (A) Increases to infinity (B) Remains the same (C) Decreases to zero (D) Doubles its original voltage
+Your answer: A | Correct: C
+Explanation: {"explanation": "(C) Decreases to zero. As frequency increases, the impedance of a capacitor decreases (Xc = 1/(2πfC)). At infinite frequency, the capacitor acts as a short circuit, resulting in zero voltage across it."}
+----
+Q1: T/F 1. The primary goal of this chapter is to present the necessary circuit concepts for electronics circuit preparation.
+Your answer: FALSE | Correct: TRUE
+Explanation: True. The text explicitly states the chapter's main purpose is to explain the basic circuit concepts and linear theory needed for electronic circuits.
+----
+Q2: T/F 2. The superposition theorem can only be applied to linear networks.
+Your answer: FALSE | Correct: TRUE
+Explanation: True. The text states that the superposition theorem can only be applied to linear networks or non-linear networks operating in the linear region.
+----
+Q3: T/F 3. The h parameter 'hoe' for a BJT has units of ohms.
+Your answer: TRUE | Correct: FALSE
+Explanation: False. Question 1 in the '實力養成區' section and its answer (D) indicate that 'hoe' has units of A/V, which is Siemens (S), the unit of conductance, not resistance (Ohms).
+----
+Q4: T/F 4. An ideal voltage source has infinite internal resistance.
+Your answer: TRUE | Correct: FALSE
+Explanation: False. The text states that an ideal voltage source has zero internal resistance.
+----
+Q6: Qn. 6. Which of the following is NOT considered a linear circuit element? (A) Resistor (B) Capacitor (C) Diode (D) Inductor
+Your answer: A | Correct: C
+Explanation: C→Diode. Resistors, capacitors, and inductors are listed as common linear elements, while diodes are explicitly mentioned as non-linear.
+----
+Q8: Qn. 8. In applying the superposition theorem, what should be done with other voltage sources when considering the effect of one voltage source? (A) Open circuit (B) Short circuit (C) Leave them unchanged (D) Replace with current sources
+Your answer: A | Correct: B
+Explanation: B→Short circuit. The text mentions that when applying superposition, other voltage sources should be short-circuited and current sources open-circuited.
+----
+Q9: Qn. 9. Thevenin's equivalent voltage is the: (A) Short circuit current at the terminals (B) Open circuit voltage at the terminals (C) Equivalent resistance at the terminals (D) Average voltage across the terminals
+Your answer: A | Correct: B
+Explanation: B→Open circuit voltage at the terminals. The text defines Thevenin's equivalent voltage as the open-circuit voltage seen at the terminals.
+----
+Q10: Qn. 10. What happens to a capacitor's voltage as frequency approaches infinity? (A) Increases to infinity (B) Remains the same (C) Decreases to zero (D) Doubles its original voltage
+Your answer: A | Correct: C
+Explanation: C→Decreases to zero. Question 4 in the '實力養成區' section and its answer (B) indicate that the voltage across a capacitor approaches zero as frequency approaches infinity.
+----
+Q2: T/F 2. The h parameters are used to characterize single-port networks.
+Your answer: TRUE | Correct: FALSE
+Explanation: False. H-parameters are used to characterize two-port networks, not single-port networks. Single-port networks are characterized by impedance or admittance.
+----
+Q3: T/F 3. The Norton equivalent circuit consists of a voltage source in series with a resistor.
+Your answer: TRUE | Correct: FALSE
+Explanation: False. The Norton equivalent circuit consists of a current source in parallel with a resistor, not a voltage source in series with a resistor. A voltage source in series with a resistor describes a Thevenin equivalent circuit.
+----
+Q4: T/F 4. According to the principle of superposition, when analyzing a circuit with multiple independent sources, voltage sources are opened while current sources are shorted when considering the effect of one source.
+Your answer: TRUE | Correct: FALSE
+Explanation: False. According to the superposition theorem, when considering the effect of one source, voltage sources are shorted and current sources are opened. This is the opposite of what the statement suggests.
+----
+Q5: T/F 5. The Miller effect always reduces the effective capacitance seen at the input of an amplifier.
+Your answer: TRUE | Correct: FALSE
+Explanation: False. The Miller effect can increase or decrease the effective capacitance depending on the gain. If the gain is negative and has an absolute value greater than 1, the capacitance is increased. If the gain is positive and less than 1, the capacitance is decreased.
+----
+Q6: Qn. 6. According to Ohm's Law, the voltage drop across a conductor is the product of which two parameters? (A) Current and conductance (B) Current and resistance (C) Power and current (D) Resistance and power
+Your answer: A | Correct: B
+Explanation: B. According to Ohm's Law, V = I * R, where V is voltage, I is current, and R is resistance. Therefore, the voltage drop is the product of current and resistance.
+----
+Q8: Qn. 8.  What is the internal resistance of an ideal voltage source? (A) Infinite (B) High (C) Low (D) Zero
+Your answer: A | Correct: D
+Explanation: D. An ideal voltage source maintains a constant voltage regardless of the current drawn. This is only possible if its internal resistance is zero, allowing it to supply any amount of current without a voltage drop within the source itself.
+----
+Q9: Qn. 9. The Miller effect states that the equivalent input capacitance is affected by: (A) The output impedance (B) The gain of the amplifier (C) The supply voltage (D) The input current.
+Your answer: A | Correct: B
+Explanation: B. The Miller effect describes how the gain of an amplifier affects the equivalent input capacitance when there is a capacitance between the input and output. The higher the gain, the larger the effective input capacitance.
+----
+Q10: Qn. 10. What does the term "pole" refer to in the context of a transfer function? (A) A frequency at which the transfer function equals one (B) A frequency at which the transfer function is zero (C) A frequency at which the transfer function approaches infinity (D) A frequency at which the transfer function has a maximum value.
+Your answer: A | Correct: C
+Explanation: C. A pole of a transfer function is a frequency value that makes the denominator of the transfer function equal to zero, causing the transfer function to approach infinity. Poles are important for determining the stability and frequency response of a system.
+----
+Q3: T/FA diode is an example of a linear circuit element.
+Your answer: TRUE | Correct: FALSE
+Explanation: FALSE. Diodes are non-linear elements because their V-I characteristic curve is not a straight line.
+----
+Q4: T/FNorton's Theorem uses open-circuit voltage for simplification.
+Your answer: TRUE | Correct: FALSE
+Explanation: FALSE. Norton's Theorem uses short-circuit current, not open-circuit voltage, for simplification.
+----
+Q6: Q6. What is the unit of the h parameter 'hoe' of a BJT? (A) V (B) A (C) V/A (D) A/V
+Your answer: A | Correct: D
+Explanation: D. According to the text (page 23), the answer is A/V.
+----
+Q7: Q7. According to superposition, when deactivating voltage sources you (A) Open Circuit (B) Short Circuit (C) Double (D) Halve
+Your answer: A | Correct: B
+Explanation: B. According to the text (page 7), voltage sources are shorted when applying superposition.
+----
+Q8: Q8. What happens to a capacitor as frequency approaches infinity? (A) Open (B) Short (C) Resists (D) Induces
+Your answer: A | Correct: B
+Explanation: B. According to the text (page 24, Q4), as frequency approaches infinity, a capacitor acts as a short circuit.
+----
+Q9: Q9. What is the input impedance of an ideal voltage amplifier? (A) Zero (B) Infinite (C) One (D) Negative
+Your answer: A | Correct: B
+Explanation: B. According to the text (page 24, Q6), an ideal voltage amplifier has infinite input impedance.
+----
+Q5: T/FAn ideal current source has zero internal resistance.
+Your answer: TRUE | Correct: FALSE
+Explanation: F→An ideal current source has infinite internal resistance, not zero.
+----
+Q6: Q6. Which of the following is a linear circuit element? (A) Diode (B) Transistor (C) Resistor (D) Capacitor
+Your answer: A | Correct: C
+Explanation: C→Resistors and Capacitors are linear circuit elements because their voltage-current relationship is linear, unlike diodes and transistors.
+----
+Q7: Q7. What does Miller effect describe? (A) Current Amplification (B) Voltage Amplification (C) Capacitance Multiplication (D) Resistance Reduction
+Your answer: A | Correct: C
+Explanation: C→The Miller effect describes the multiplication of capacitance due to the gain of an amplifier and feedback capacitance.
+----
+Q8: Q8. Which network parameter is used to analyze two-port networks? (A) h (B) z (C) y (D) All of the above
+Your answer: A | Correct: D
+Explanation: D→h, z, and y parameters are all used to analyze two-port networks, each offering a different perspective and set of characteristics.
+----
+Q10: Q10. What is the internal resistance of an ideal voltage source? (A) Infinite (B) Zero (C) High (D) Low
+Your answer: A | Correct: B
+Explanation: B→An ideal voltage source maintains a constant voltage regardless of the current drawn, implying zero internal resistance.
+----
+Q3: T/FSuperposition theorem is applicable to both linear and non-linear networks.
+Your answer: TRUE | Correct: FALSE
+Explanation: False→Superposition theorem is only applicable to linear networks because it relies on the principle of linearity (additivity and homogeneity).
+----
+Q6: Q6. Which of the following is a non-linear circuit element? (A) Resistor (B) Capacitor (C) Inductor (D) Diode
+Your answer: A | Correct: D
+Explanation: D→A diode is a semiconductor device with a non-linear current-voltage relationship, unlike resistors, capacitors, and inductors which are linear elements.
+----
+Q7: Q7. Thevenin's theorem is applicable to: (A) Linear circuits only (B) Non-linear circuits only (C) Both linear and non-linear (D) Time-varying circuits
+Your answer: C | Correct: A
+Explanation: A→Thevenin's theorem is based on the principle of linearity and is therefore only applicable to linear circuits.
+----
+Q9: Q9. For maximum power transfer, the load resistance should be: (A) Equal to source resistance (B) Zero (C) Infinite (D) Half of source resistance
+Your answer: C | Correct: A
+Explanation: A→Maximum power transfer occurs when the load resistance is equal to the Thevenin (or Norton) equivalent resistance of the source network.
+----
+Q2: T/F 2. In a network with multiple independent sources, the superposition theorem can be applied to determine the voltage or current due to each source acting alone.
+Your answer: FALSE | Correct: TRUE
+Explanation: (no explanation)
+----
+Q4: T/F 4. An ideal voltage source maintains a constant voltage regardless of the current drawn from it.
+Your answer: FALSE | Correct: TRUE
+Explanation: (no explanation)
+----
+Q6: Qn. 6. Which of the following is NOT a linear circuit element? (A) Resistor (B) Capacitor (C) Diode (D) Independent voltage source
+Your answer: B | Correct: C
+Explanation: (no explanation)
+----
+Q7: Qn. 7. According to Ohm's Law, what is the relationship between voltage (V), current (I), and resistance (R)? (A) V = I/R (B) I = VR (C) V = IR (D) R = VI
+Your answer: A | Correct: C
+Explanation: (no explanation)
+----
+Q9: Qn. 9. What is the Laplace transform of the derivative of a function x(t), assuming zero initial conditions? (A) X(s)/s (B) sX(s) (C) X(s) - x(0) (D) sX(s) - x(0)
+Your answer: D | Correct: B
+Explanation: (no explanation)
+----
+Q2: T/FA diode is a linear circuit element.
+Your answer: TRUE | Correct: FALSE
+Explanation: The answer is (A) Input end equivalent capacitance is proportional to (1 - voltage gain between two ends). Miller effect describes how the capacitance between the input and output of an amplifier is amplified due to the amplifier's gain.
+----
+Q4: T/FMiller's effect relates to equivalent capacitance.
+Your answer: FALSE | Correct: TRUE
+Explanation: The answer is (B) 0. At very high frequencies, the impedance of a capacitor approaches zero, effectively acting as a short circuit. Therefore, the voltage across the capacitor will be zero.
+----
+Q5: T/FAn ideal voltage source has infinite internal resistance.
+Your answer: TRUE | Correct: FALSE
+Explanation: The answer is (C) 0; infinity. An ideal voltage source maintains a constant voltage regardless of the current drawn, implying zero internal resistance. An ideal current source delivers a constant current regardless of the voltage across it, implying infinite internal resistance.
+----
+Q6: Q6. Which is NOT a linear circuit element? (A) Resistor (B) Capacitor (C) Inductor (D) Diode
+Your answer: A | Correct: D
+Explanation: The answer is (C) infinity; 0. An ideal voltage amplifier has infinite input impedance to avoid loading the source and zero output impedance to provide a stable output voltage regardless of the load.
+----
+Q8: Q8. Thevenin's theorem simplifies a network to: (A) Current source and resistor (B) Voltage source and resistor (C) Only a resistor (D) Only a capacitor
+Your answer: D | Correct: B
+Explanation: True. Miller's effect describes the increase in equivalent input capacitance of an amplifier due to the feedback capacitance between the output and input.
+----
+Q9: Q9. The unit of h parameters hoe is: (A) Ohms (B) Siemens (C) Volts (D) Amperes
+Your answer: A | Correct: B
+Explanation: False. An ideal voltage source has zero internal resistance, allowing it to maintain a constant voltage regardless of the current drawn.
+----
+Q10: Q10. Laplace transform of unit step function is: (A) 1 (B) s (C) 1/s (D) e^(-s)
+Your answer: A | Correct: C
+Explanation: The answer is (D) Diode. Resistors, capacitors, and inductors are linear circuit elements because their voltage-current relationship is linear. Diodes are non-linear.
+----
+Q1 [Medium]: T/FThe node voltage method can be used to determine the current flowing into/out of a node.
+Your answer: TRUE | Correct: FALSE
+Explanation: True. The node voltage method calculates the voltage at each node, which can then be used with Ohm's law to find the current flowing through the branches connected to that node.
+----
+Q3 [Medium]: T/FMiller's theorem always increases the effective capacitance seen at the input terminal.
+Your answer: TRUE | Correct: FALSE
+Explanation: False. Miller's theorem can either increase or decrease the effective capacitance depending on the gain of the amplifier.
+----
+Q4 [Medium]: T/FA linear circuit must only satisfy the additivity property, not the homogeneity property.
+Your answer: TRUE | Correct: FALSE
+Explanation: False. A linear circuit must satisfy both the additivity and homogeneity properties to be considered linear.
+----
+Q5 [Medium]: T/FThe Laplace transform of a unit step function is s.
+Your answer: TRUE | Correct: FALSE
+Explanation: False. The Laplace transform of a unit step function u(t) is 1/s.
+----
+Q6 [Medium]: Q6. Which of the following is NOT a linear circuit element? (A) Resistor (B) Capacitor (C) Diode (D) Inductor
+Your answer: A | Correct: C
+Explanation: C. A diode is a non-linear element because its current-voltage relationship is not a straight line. Resistors, capacitors, and inductors are linear elements.
+----
+Q8 [Medium]: Q8. What is the Thevenin voltage (Vth) across terminals A and B when finding the Thevenin equivalent circuit? (A) Short-circuit voltage (B) Open-circuit voltage (C) Source Voltage (D) Norton Current
+Your answer: A | Correct: B
+Explanation: B. The Thevenin voltage (Vth) is the open-circuit voltage across the terminals of interest.
+----
+Q9 [Medium]: Q9. Which of the following parameters represents the output admittance in a two-port network? (A) z (B) h (C) y (D) s
+Your answer: A | Correct: C
+Explanation: C. The y parameters are admittance parameters, and y22 specifically represents the output admittance.
+----
+Q10 [Medium]: Q10. In Laplace domain, what is the impedance of an inductor with inductance L? (A) 1/(sL) (B) sC (C) sL (D) 1/(sC)
+Your answer: A | Correct: C
+Explanation: C. The impedance of an inductor in the Laplace domain is sL, where s is the complex frequency and L is the inductance.
+----
+Q1 [Medium]: T/F** A linear circuit must satisfy both homogeneity and additivity properties.
+Your answer: FALSE | Correct: TRUE
+Explanation: True. Linearity, by definition, requires both homogeneity (scaling) and additivity (superposition) to hold.
+----
+Q4 [Medium]: T/F** In node voltage analysis, the sum of currents entering a node equals zero.
+Your answer: FALSE | Correct: TRUE
+Explanation: True. This is a direct application of Kirchhoff's Current Law (KCL), which is the foundation of node voltage analysis.
+----
+Q5 [Medium]: T/F** An ideal voltage source has zero internal resistance, maintaining constant voltage regardless of the load.
+Your answer: FALSE | Correct: TRUE
+Explanation: True. An ideal voltage source is defined as having zero internal resistance, meaning its voltage remains constant regardless of the current drawn.
+----
+Q6 [Medium]: Q6.** The Thevenin equivalent voltage (Vth) is calculated by: (A) Short-circuiting the terminals (B) Open-circuiting the terminals (C) Applying a test current (D) Grounding the terminals.
+Your answer: A | Correct: B
+Explanation: B. The Thevenin voltage is the open-circuit voltage at the terminals of the network.
+----
+Q7 [Medium]: Q7.** Which of the following is NOT a linear circuit element? (A) Resistor (B) Capacitor (C) Diode (D) Inductor.
+Your answer: D | Correct: C
+Explanation: C. Diodes are non-linear elements because their current-voltage relationship is not a straight line.
+----
+Q8 [Medium]: Q8.** Superposition theorem is applicable when the circuit contains: (A) Only independent sources (B) Only dependent sources (C) Both independent and dependent sources (D) Any kind of source.
+Your answer: D | Correct: A
+Explanation: A. Superposition theorem applies to circuits with independent sources only. Dependent sources are handled differently during the superposition process.
+----
+Q10 [Medium]: Q10.** If a two-port network is reciprocal, then: (A) z11 = z22 (B) z12 = z21 (C) y11 = y22 (D) h11 = h22
+Your answer: D | Correct: B
+Explanation: B. Reciprocity in a two-port network implies that the transfer impedance (z12) is equal to the reverse transfer impedance (z21).
+----
+Q1: T/F 1. A circuit is linear if it satisfies either the homogeneity or additivity property.
+Your answer: TRUE | Correct: FALSE
+Explanation: False. A circuit must satisfy both homogeneity and additivity to be considered linear, as stated in section 1-2.
+----
+Q2: T/F 2. According to the superposition theorem, when considering the effect of one independent source, all other voltage sources should be open-circuited and current sources short-circuited.
+Your answer: TRUE | Correct: FALSE
+Explanation: False. When considering the effect of one independent source in superposition, all other voltage sources should be *short*-circuited and current sources *open*-circuited, as described in the '注意' section of 1-3-3.
+----
+Q4: T/F 4. The Laplace transform of the derivative of a function x(t) is simply sX(s).
+Your answer: TRUE | Correct: FALSE
+Explanation: False. The Laplace transform of the derivative of x(t) is sX(s) - x(0-), as shown in equation (1-4).
+----
+Q5: T/F 5. The poles of a transfer function are the values of 's' that make the transfer function equal to zero.
+Your answer: TRUE | Correct: FALSE
+Explanation: False. The poles of a transfer function are the values of 's' that make the transfer function equal to infinity, while zeros make it equal to zero, as stated in section 1-5-2.
+----
+Q6: Qn. 6. According to Ohm's law, the voltage drop across a conductor is equal to: (A) current times the resistance…(B) current divided by the resistance…(C) resistance divided by the current…(D) the square of the current times the resistance.
+Your answer: D | Correct: A
+Explanation: A. Ohm's Law states that V = I * R, so the voltage drop is equal to the current times the resistance, as mentioned in section 1-1-1.
+----
+Q7: Qn. 7. Which of the following is NOT a linear circuit element? (A) Resistor…(B) Capacitor…(C) Diode…(D) Independent Voltage Source.
+Your answer: A | Correct: C
+Explanation: C. Diodes are non-linear elements, while resistors, capacitors, and independent voltage sources are linear, as stated in section 1-2.
+----
+Q8: Qn. 8. In nodal analysis, the sum of currents entering a node is: (A) Always positive…(B) Always negative…(C) Equal to zero…(D) Equal to one.
+Your answer: A | Correct: C
+Explanation: C. According to the principle of conservation of energy, the net current entering a node is equal to zero, as explained in section 1-3-1.
+----
+Q9: Qn. 9. An ideal current source has an internal resistance of: (A) Zero…(B) One…(C) Infinity…(D) A value dependent on the current.
+Your answer: D | Correct: C
+Explanation: C. An ideal current source has infinite internal resistance, ensuring the current remains constant regardless of the connected load, as mentioned in section 1-4-1.
+----
+Q1: T/F 1. A circuit exhibiting linearity must satisfy both homogeneity and additivity.
+Your answer: FALSE | Correct: TRUE
+Explanation: id→True. Linearity requires both homogeneity (scaling) and additivity (superposition) to hold.
+----
+Q3: T/F 3. The Miller effect describes the impedance transformation of a capacitor across the input and output ports of an amplifier.
+Your answer: FALSE | Correct: TRUE
+Explanation: id→True. The Miller effect describes how the impedance, especially capacitance, connected between the input and output of an amplifier is transformed when viewed from either the input or output due to the amplifier's gain.
+----
+Q4: T/F 4. Thevenin's theorem simplifies a complex network by finding an equivalent voltage source and series resistance.
+Your answer: FALSE | Correct: TRUE
+Explanation: id→True. Thevenin's theorem allows simplifying a complex circuit into a voltage source (Vth) in series with a resistance (Rth) as seen from two terminals.
+----
+Q7: Qn. 7. What is the defining characteristic of an ideal current source? (A) Zero internal resistance (B) Infinite internal resistance (C) Voltage varies with current (D) Constant voltage output.
+Your answer: A | Correct: B
+Explanation: id→B. An ideal current source maintains a constant current regardless of the voltage across it, implying infinite internal resistance.
+----
+Q8: Qn. 8. What parameters are y parameters associated with in two-port networks? (A) Impedance (B) Admittance (C) Hybrid (D) Transmission.
+Your answer: C | Correct: B
+Explanation: id→B. Y parameters, also known as admittance parameters, describe the relationship between currents and voltages at the ports of a two-port network using admittances.
+----
+Q9: Qn. 9. What does the Laplace transform of the derivative of a function x(t) equal, assuming zero initial conditions? (A) X(s)/s (B) sX(s) (C) X(s) (D) e^(-st)X(s).
+Your answer: A | Correct: B
+Explanation: id→B. With zero initial conditions, the Laplace transform of dx(t)/dt is sX(s), where X(s) is the Laplace transform of x(t).
+----
+Q10: Qn. 10. What is the effect of frequency approaching infinity on a capacitor in a circuit? (A) Acts as an open circuit (B) Acts as a short circuit (C) Impedance increases linearly (D) Voltage across the capacitor increases.
+Your answer: A | Correct: B
+Explanation: id→B. As frequency approaches infinity, the impedance of a capacitor (Z = 1/(jωC)) approaches zero, effectively acting as a short circuit.
+----S01 | Q2 [Medium]: T/FThevenin's theorem can only be applied to circuits containing independent sources.
+Your answer: TRUE | Correct: FALSE
+Explanation: F: Thevenin's theorem can be applied to circuits containing both independent and dependent sources. The key is how you calculate the Thevenin resistance when dependent sources are present.
+----
+S01 | Q3 [Medium]: T/FNorton resistance is found by shorting voltage sources and opening current sources.
+Your answer: TRUE | Correct: FALSE
+Explanation: F: Norton resistance is found by zeroing independent sources, which means shorting voltage sources and opening current sources. This allows you to calculate the equivalent resistance seen from the terminals of interest.
+----
+S01 | Q6 [Medium]: Q6. What happens to the impedance of a capacitor as frequency increases? (A) Increases linearly (B) Decreases linearly (C) Remains constant (D) Approaches zero
+Your answer: D | Correct: B
+Explanation: D: The impedance of a capacitor is inversely proportional to frequency (Z = 1/(jωC)). As frequency increases, the impedance approaches zero.
+----
+S01 | Q7 [Medium]: Q7. Which of the following is NOT a linear element? (A) Resistor (B) Capacitor (C) Diode (D) Inductor
+Your answer: A | Correct: C
+Explanation: C: A diode is a non-linear element because its current-voltage relationship is not a straight line. Resistors, capacitors, and inductors are linear elements because their voltage and current are linearly related (or have a linear relationship in their impedance).
+----
+S01 | Q8 [Medium]: Q8. The Miller effect primarily affects which circuit parameter? (A) Resistance (B) Inductance (C) Capacitance (D) Voltage
+Your answer: A | Correct: C
+Explanation: C: The Miller effect primarily affects capacitance. It describes how the effective input capacitance of an amplifier is increased due to the amplification of the capacitance between the input and output terminals.
+----
+S01 | Q10 [Medium]: Q10. Which of the following is a characteristic of an ideal voltage source? (A) Zero internal resistance (B) Infinite internal resistance (C) Variable voltage output (D) Current-dependent voltage
+Your answer: D | Correct: A
+Explanation: A: An ideal voltage source maintains a constant voltage regardless of the current drawn from it. This implies that it has zero internal resistance, so there is no voltage drop across the source itself.
+----
+S01 | Q1 [Easy]: T/F Ohm's Law states that Voltage equals Current times Resistance.
+Your answer:  | Correct: TRUE
+Explanation: True. Ohm's Law is defined as V = I * R, where V is voltage, I is current, and R is resistance.
+----
+S01 | Q2 [Easy]: T/F A linear circuit must satisfy both homogeneity and additivity.
+Your answer:  | Correct: TRUE
+Explanation: True. Linearity in a circuit requires both homogeneity (scaling the input scales the output proportionally) and additivity (the output to a sum of inputs is the sum of the outputs).
+----
+S01 | Q3 [Easy]: T/F Thevenin's theorem simplifies a circuit to a voltage source in series with a resistor.
+Your answer:  | Correct: TRUE
+Explanation: True. Thevenin's theorem replaces a complex circuit with a simplified equivalent consisting of a single voltage source (Vth) in series with a single resistor (Rth).
+----
+S01 | Q4 [Easy]: T/F An ideal voltage source has infinite internal resistance.
+Your answer:  | Correct: FALSE
+Explanation: False. An ideal voltage source has zero internal resistance, allowing it to maintain a constant voltage regardless of the current drawn.
+----
+S01 | Q5 [Easy]: T/F A capacitor blocks DC current in a steady state.
+Your answer:  | Correct: TRUE
+Explanation: True. In a DC steady-state, after the initial charging or discharging, a capacitor acts as an open circuit, blocking the flow of direct current.
+----
+S01 | Q6 [Easy]: Q6. Which of the following is NOT a linear circuit element? (A) Resistor (B) Capacitor (C) Diode (D) Inductor
+Your answer:  | Correct: C
+Explanation: C: A diode is a non-linear element because its current-voltage relationship is not a straight line; resistors, capacitors, and inductors are linear elements.
+----
+S01 | Q7 [Easy]: Q7. Superposition theorem is applicable to circuits with: (A) Only dependent sources (B) Only independent sources (C) Both dependent and independent sources (D) None of these
+Your answer:  | Correct: C
+Explanation: C: The superposition theorem states that in a linear circuit with multiple independent sources, the voltage or current for any element is the algebraic sum of the voltages or currents produced by each independent source acting alone. Dependent sources are still present in the circuit, but their values depend on other voltages or currents in the circuit.
+----
+S01 | Q8 [Easy]: Q8. Norton's equivalent circuit consists of: (A) Voltage source in series with a resistance (B) Current source in parallel with a resistance (C) Voltage source in parallel with a resistance (D) Current source in series with a resistance
+Your answer:  | Correct: B
+Explanation: B: Norton's theorem replaces a complex circuit with a current source in parallel with a resistance.
+----
+S01 | Q9 [Easy]: Q9. The unit of impedance is: (A) Siemens (B) Farad (C) Ohm (D) Henry
+Your answer:  | Correct: C
+Explanation: C: Impedance, like resistance, is measured in Ohms.
+----
+S01 | Q10 [Easy]: Q10. Which parameter is calculated in Mesh Analysis? (A) Node Voltage (B) Branch Voltage (C) Mesh Current (D) Branch Current
+Your answer:  | Correct: A
+Explanation: C: Mesh analysis uses Kirchhoff's Voltage Law (KVL) to solve for the mesh currents flowing in each independent loop of a circuit.
+----
+S01 | Q1 [Medium]: T/F** A linear circuit must satisfy both homogeneity and additivity.
+Your answer:  | Correct: TRUE
+Explanation: True. A linear circuit, by definition, must adhere to both the principles of homogeneity (scaling) and additivity (superposition).
+----
+S01 | Q2 [Medium]: T/F** The Miller effect always increases the input impedance of a circuit.
+Your answer:  | Correct: FALSE
+Explanation: False. The Miller effect increases the *capacitance* seen at the input, which *decreases* the input impedance, especially at higher frequencies.
+----
+S01 | Q3 [Medium]: T/F** Norton's theorem replaces a network with a current source in series with a resistance.
+Your answer:  | Correct: FALSE
+Explanation: False. Norton's theorem replaces a network with a current source in *parallel* with a resistance.
+----
+S01 | Q4 [Medium]: T/F** In a series RLC circuit, the impedance is always minimum at resonance.
+Your answer:  | Correct: FALSE
+Explanation: True. At resonance, the inductive and capacitive reactances cancel each other, leaving only the resistance, which minimizes the impedance.
+----
+S01 | Q5 [Medium]: T/F** Dependent sources can be voltage-controlled current sources or current-controlled voltage sources.
+Your answer:  | Correct: TRUE
+Explanation: True. Dependent sources can be controlled by either a voltage or a current elsewhere in the circuit, and can output either a voltage or a current.
+----
+S01 | Q6 [Medium]: Q6.** Which of the following is a non-linear circuit element? (A) Resistor (B) Capacitor (C) Inductor (D) Diode
+Your answer:  | Correct: D
+Explanation: D. Diodes exhibit a non-linear current-voltage relationship, unlike resistors, capacitors, and inductors which are linear elements.
+----
+S01 | Q7 [Medium]: Q7.** Thevenin's theorem is applied to (A) linear circuits only (B) non-linear circuits only (C) both linear and non-linear (D) passive circuits only
+Your answer:  | Correct: A
+Explanation: A. Thevenin's theorem is only applicable to linear circuits because it relies on the principle of superposition.
+----
+S01 | Q8 [Medium]: Q8.** Superposition theorem is applicable to circuits that are (A) linear and time-invariant (B) non-linear and time-variant (C) linear only (D) non-linear only
+Your answer:  | Correct: C
+Explanation: A. Superposition theorem is applicable to linear and time-invariant circuits. It relies on the linearity property.
+----
+S01 | Q9 [Medium]: Q9.** The Laplace transform of a unit step function u(t) is (A) 1 (B) s (C) 1/s (D) e^(-s)
+Your answer:  | Correct: C
+Explanation: C. The Laplace transform of the unit step function u(t) is 1/s, a standard result in Laplace transform theory.
+----
+S01 | Q10 [Medium]: Q10.** The h-parameter h11 represents (A) input impedance with output short-circuited (B) output admittance with input open-circuited (C) forward current gain with output short-circuited (D) reverse voltage gain with input open-circuited
+Your answer:  | Correct: A
+Explanation: A. The h-parameter h11 is defined as the input impedance with the output short-circuited, representing the impedance seen at the input terminals under short-circuit conditions at the output.
+----
+S01 | Q2 [Medium]: T/FNorton's theorem simplifies a circuit to a voltage source and a series resistance.
+Your answer: TRUE | Correct: FALSE
+Explanation: False. Norton's theorem simplifies a circuit to a current source and a parallel resistance.
+----
+S01 | Q3 [Medium]: T/FThe Miller effect always decreases the input capacitance of an amplifier.
+Your answer: TRUE | Correct: FALSE
+Explanation: False. The Miller effect increases the input capacitance when the voltage gain is negative (inverting amplifier).
+----
+S01 | Q4 [Medium]: T/FAn ideal voltage source has infinite internal resistance.
+Your answer: TRUE | Correct: FALSE
+Explanation: False. An ideal voltage source has zero internal resistance, ensuring the voltage remains constant regardless of the current drawn.
+----
+S01 | Q5 [Medium]: T/FThe initial conditions are ignored when calculating a transfer function.
+Your answer: FALSE | Correct: TRUE
+Explanation: True. The transfer function is defined as the ratio of the Laplace transform of the output to the Laplace transform of the input, assuming zero initial conditions.
+----
+S01 | Q6 [Medium]: Q6. Which of the following is NOT a passive component? (A) Resistor (B) Capacitor (C) Inductor (D) Dependent voltage source
+Your answer: C | Correct: D
+Explanation: D: A dependent voltage source is an active component because its output depends on another voltage or current in the circuit, requiring an external power source.
+----
+S01 | Q7 [Medium]: Q7. What is the purpose of bypass capacitors in a circuit? (A) Block DC signals (B) Pass AC signals to ground (C) Increase input impedance (D) Decrease output impedance
+Your answer: A | Correct: B
+Explanation: B: Bypass capacitors provide a low-impedance path to ground for AC signals, effectively shorting them to ground and preventing them from affecting other parts of the circuit. This is mentioned in the material under '交連耦合與旁路'.
+----
+S01 | Q9 [Medium]: Q9. Which two-port parameter is the ratio of output current to input voltage? (A) z parameter (B) y parameter (C) h parameter (D) Transmission parameter
+Your answer: A | Correct: B
+Explanation: B: The y parameter (admittance parameter) y21 is defined as the ratio of the output current (I2) to the input voltage (V1) with the output shorted (V2=0).
+----
+S01 | Q10 [Medium]: Q10. A circuit with a pole at s = -2 will have a response of the form: (A) e^(2t) (B) e^(-2t) (C) cos(2t) (D) sin(2t)
+Your answer: A | Correct: B
+Explanation: B: A pole at s = -2 corresponds to a term of the form 1/(s+2) in the Laplace domain. The inverse Laplace transform of this term is e^(-2t).
+----

@@ -19,7 +19,7 @@ from docx import Document
 from pptx import Presentation
 #import config  # GEMINI_API_KEY & GEMINI_MODEL_ID must be defined here
 import os
-genai.configure(api_key=os.environ["AIzaSyDdzsT1GmjQkUjRVEe2YJgYBONAHLr1XBQ"])
+genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 MODEL_ID = os.environ["gemini-pro"]
 
 # ─────────────────────────────── CONSTANTS ────────────────────────────────

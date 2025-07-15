@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: ai-teaching-assistant
+    env: python
+    buildCommand: ""
+    startCommand: streamlit run app.py --server.port=10000 --server.address=0.0.0.0
+    plan: free
+    envVars:
+      - key: GEMINI_API_KEY
+        value: <AIzaSyDdzsT1GmjQkUjRVEe2YJgYBONAHLr1XBQ>
+      - key: GEMINI_MODEL_ID
+        value: gemini-pro

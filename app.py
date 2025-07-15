@@ -32,8 +32,8 @@ LOCKOUT_MIN   = 5    # minutes (after 3 wrong PIN attempts)
 MAX_PIN_TRY   = 3
 
 # ─────────────────────────── Gemini Settings ──────────────────────────────
-genai.configure(api_key=config.GEMINI_API_KEY)
-MODEL_ID = config.GEMINI_MODEL_ID
+#genai.configure(api_key=config.GEMINI_API_KEY)
+#MODEL_ID = config.GEMINI_MODEL_ID
 
 # ╔═══════════════════ USER / AUTHENTICATION UTILITIES ═══════════════════╗
 
